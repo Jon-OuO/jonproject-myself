@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【絕區零】➤遊戲特點</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./zzz.js"></script>
+</head>
+
+<body style="overflow-x: hidden; background-color: black;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../material/icon/big_home_logo.png" alt="" width="80px"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button id="navButton" class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto fs-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../project/zzz_home.html">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../project/zzz_character.html">角色介紹</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../project/zzz_game_photo.html">遊戲特點</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../project/zzz_info.html">最新消息</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="game_photo_bk">
+        <div class="container_tv">
+            <img id="custom_image" src="../material/game_photo_original/game_photo_tvbk_00.png" class="tv_photo">
+            <!-- tv_photo 不在 game_photo_tvbk 裡 -->
+
+            <div class="col-12 game_photo_tvbk">
+                <span class="custom-btn prev-btn" onclick="customPrevSlide()">⟲</span>
+                <span class="custom-btn next-btn" onclick="customNextSlide()">⟳</span>
+            </div>
+        </div>
+
+        <div class="col-12 game_info_txt">
+            <h1 id="custom_title">遊戲背景</h1>
+            <hr>
+            <p id="custom_description" style="font-size: medium; color: yellow;">它的故事發生在被神秘的超自然災害「空洞」所侵襲的近未來。</p>
+            <br>
+            <p id="custom_text">
+                在這災禍頻仍的世界裡，崛起了一座另類的城市——「新艾利都」。這座最後的「綠洲」掌握了與「空洞」共生的技術，盤踞著錯綜複雜的勢力，它混亂、喧囂、危險又充滿活力。而你將成為串聯起空洞與都市的關鍵少數派，名為「繩匠」的特殊職業人士。這裡正等待著見證你的故事。
+            </p>
+        </div>
+    </main>
+
+</body>
+<footer>
+    <div class="text-center" style="background-color: black; width: 100%;">
+        <div>
+            <img src="../material/icon/zzz_logo_title.png" alt="zzz_logo_title" class="mt-5" style="width: 200px;">
+            <div class="mt-3">
+                <a href="https://zenless.hoyoverse.com/zh-tw/company/privacy" class="link-secondary ms-3">隱私權政策</a>
+                <a href="https://zenless.hoyoverse.com/zh-tw/company/terms" class="link-secondary ms-3">使用者協議</a>
+                <a href="https://www.hoyoverse.com/about-us?utm_source=zzz&utm_medium=footer"
+                    class="link-secondary ms-3">關於我們</a>
+                <a href="zzzcs@nijigengames.com" class="link-secondary ms-3">聯絡我們</a>
+                <a href="https://cs.hoyoverse.com/static/hoyoverse-new-csc-service-hall-fe/index.html?page_id=19&login_type=visitor&game_biz=platform_hyvpass&lang=zh-tw&utm_source=zzz&utm_medium=footer"
+                    class="link-secondary ms-3">服務中心</a>
+            </div>
+            <div class="mt-3">
+                <img src="../material/icon/enterprise_logo-1.png" alt="enterprise_logo-1" style="width: 150px;">
+                <img src="../material/icon/icon_age.png" alt="icon_age" style="width: 50px" ;>
+            </div>
+            <p style="color: lightgrey; font-size: 15px;" class="mt-3">※本軟體因涉及性、暴力、恐怖情節，依遊戲軟體分級管理辦法分類為輔15級。 <br>
+                ※本遊戲為免費使用，遊戲內另提供購買虛擬貨幣、物品等付費服務。<br>
+                ※請注意遊戲時間，避免沉迷。
+            </p>
+            <p style="color:lightgrey; font-size: 15px;" class="mt-3">"PlayStation Family Mark" ,"PlayStation" and
+                "PS5
+                logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc. <br>
+                Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are
+                trademarks
+                and/or registered trademarks of Epic Games. <br>
+                All other trademarks are the property of their respective owners.
+            </p>
+            <img src="../material/icon/enterprise_logo-2.png" alt="enterprise_logo-2" style="width: 300px;"
+                class="mt-3">
+            <p style="color:white; font-size: 15px;" class="mt-3 mb-0 pb-3">Copyright © COGNOSPHERE. All Rights
+                Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</html>

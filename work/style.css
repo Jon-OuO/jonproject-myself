@@ -1,0 +1,964 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexyen.css');
+
+
+@media(max-width:991px) {
+    #download_wrap {
+        display: none !important;
+    }
+
+    .navbar-nav .nav-link {
+        padding-left: 50% !important;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: white;
+    --textHover-color: yellow;
+}
+
+#navbarNavDropdown ul li>a {
+    color: var(--text-color);
+    font-family: "Mochiy Pop One", sans-serif;
+}
+
+#navbarNavDropdown ul li a:hover {
+    color: var(--textHover-color);
+}
+
+/* 立體感深色導航欄樣式 */
+.navbar {
+    background: linear-gradient(145deg, #2c2c2c, #1a1a1a);
+    /* 灰黑色漸變背景 */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    /* 下方陰影，增加立體感 */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    /* 淡白色的底部邊框 */
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+/* 添加放大效果 */
+.navbar-brand img {
+    transition: transform 0.3s ease-in-out;
+    /* 添加平滑過渡效果 */
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.7));
+    /* 給logo增加陰影 */
+}
+
+/* 滑過時的放大和抖動效果 */
+.navbar-brand img:hover {
+    transform: scale(1.1);
+    /* 放大 */
+    animation: wobble-animation 1s;
+    /* 抖動動畫，持續 1 秒 */
+}
+
+/* 定義 wobble 動畫的 keyframes */
+@keyframes wobble-animation {
+
+    0%,
+    100% {
+        transform: translateX(0);
+        /* 初始和結束時，位置不變 */
+    }
+
+    15% {
+        transform: translateX(-10px) rotate(-5deg);
+        /* 向左抖動並輕微旋轉 */
+    }
+
+    30% {
+        transform: translateX(8px) rotate(3deg);
+        /* 向右抖動並輕微旋轉 */
+    }
+
+    45% {
+        transform: translateX(-6px) rotate(-3deg);
+        /* 向左抖動並輕微旋轉 */
+    }
+
+    60% {
+        transform: translateX(4px) rotate(2deg);
+        /* 向右抖動並輕微旋轉 */
+    }
+
+    75% {
+        transform: translateX(-2px) rotate(-1deg);
+        /* 最後的微小抖動 */
+    }
+}
+
+.navbar-toggler {
+    background-color: #444;
+    /* 切換按鈕的背景顏色 */
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    /* 切換按鈕陰影 */
+}
+
+.navbar-toggler-icon {
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.7));
+    /* 導覽按鈕icon陰影 */
+}
+
+.navbar-nav .nav-link {
+    color: var(--text-color);
+    /* 預設文字顏色 */
+    padding: 10px 15px;
+    font-family: "Mochiy Pop One", sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    /* 文字陰影 */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--textHover-color);
+    /* 滑過時變為黃色 */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* 滑過時的背景效果 */
+    border-radius: 8px;
+}
+
+/* 手機版導覽列的樣式 */
+@media(max-width:991px) {
+    .navbar-nav .nav-link {
+        padding-left: 50% !important;
+    }
+}
+
+/* 導覽列外框陰影與邊距調整 */
+.navbar-collapse {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+    /* 展開的導覽列陰影 */
+    background-color: #1a1a1a;
+    /* 手機版展開背景深色 */
+}
+
+#navbarNavDropdown ul li a {
+    color: var(--text-color);
+    /* 菜單連結文字顏色 */
+}
+
+#navbarNavDropdown ul li a:hover {
+    color: var(--textHover-color);
+    /* 菜單連結滑過時變色 */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* 背景滑過時的透明效果 */
+    border-radius: 5px;
+}
+
+/* 頂部導覽列與頁面內容間距 */
+body {
+    padding-top: 80px;
+    /* 確保內容不會被固定的導覽列覆蓋 */
+}
+
+
+.banner_wrap {
+    width: 100vw;
+    height: 800px;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner_set {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.banner {
+    background-image: url(../material/background_material/background_home_01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #000;
+    opacity: .55
+}
+
+.carouselBanner_wrap {
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#download_wrap {
+    right: 10px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.download_wrap .download_QR {
+    width: 80px;
+}
+
+#carouselContainer {
+    background-color: black;
+    background-image: url(../material/background_material/blackline_01.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.character_info {
+    background-color: aliceblue;
+    opacity: .65;
+    border-radius: 10px;
+}
+
+.character_name_home {
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+    color: black;
+}
+
+.character_Ethnic {
+    font-family: "Mochiy Pop One", sans-serif;
+    color: black;
+}
+
+.carousel-item img {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home_divider {
+    background-image: url(../material/other/divider_01.png);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+/* home_game_info_1 用于大圖片的描述框在左侧 */
+.home_game_info_1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/* 大图片描述框 (左侧) */
+.carousel-large-description {
+    text-align: left;
+    font-family: "Mochiy Pop One", sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 300px;
+}
+
+/* home_game_info_2 用于小圖片的描述框在右侧 */
+.home_game_info_2 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/* 小图片描述框 (右侧) */
+.carousel-small-description {
+    text-align: right;
+    font-family: "Mochiy Pop One", sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 300px;
+}
+
+/* 调整自适应大小和布局 */
+.custom-carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.home_game_info {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+
+.game_photo {
+    width: auto;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.btn_game_info {
+    font-family: "Mochiy Pop One", sans-serif;
+    color: black;
+    background-color: grey;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 60px;
+}
+
+.btn_game_photo {
+    font-family: "Mochiy Pop One", sans-serif;
+    color: black;
+    background-color: grey;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.btnGame {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.btnGame:hover {
+    color: var(--textHover-color);
+}
+
+/* -------遊戲介紹設定-------- */
+
+.game_photo_bk {
+    position: relative;
+    background-image: url(../material/background_material/blackline_00.png);
+    background-size: contain;
+    /* 背景保持原始大小，不缩放 */
+    background-position: center center;
+    z-index: 1;
+}
+
+.game_photo_bk::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 半透明黑色层 */
+    z-index: -1;
+    /* 确保伪元素在背景图片上面 */
+}
+
+
+.container_tv {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    margin-top: 12%;
+}
+
+.game_photo_tvbk {
+    position: relative;
+    background-image: url(../material/background_material/concept_tv_1.png);
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+    z-index: 5;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.tv_photo {
+    position: absolute;
+    width: 58%;
+    height: auto;
+    max-width: 800px;
+    max-height: 500px;
+    object-fit: contain;
+    z-index: 2;
+    border-radius: 20px;
+    margin-top: 30px;
+    top: 14%;
+    left: 14%;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.game_info_txt {
+    position: relative;
+    height: 300px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: "Mochiy Pop One", sans-serif;
+}
+
+.custom-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: black;
+    cursor: pointer;
+    z-index: 3;
+    transition: opacity 0.1s ease-in-out, transform 0.5s ease-in-out;
+}
+
+
+
+.prev-btn {
+    top: 28%;
+    left: 74%;
+}
+
+.next-btn {
+    top: 47.5%;
+    left: 74%;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    color: black;
+    cursor: pointer;
+    z-index: 2;
+    transition: background-color 0.3s;
+}
+
+
+/* ---------測試----------- */
+
+/* 通用樣式：所有輪播器的圖片淡入淡出效果 */
+.custom-carousel-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.custom-carousel-item.active {
+    opacity: 1;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* 大輪播器 */
+.carousel-large {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+.carousel-large img {
+    width: 100%;
+    height: auto;
+
+}
+
+/* 小輪播器 */
+.carousel-small {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.carousel-small img {
+    width: 100%;
+    height: auto;
+}
+
+/* -------最新資訊區----測試------------ */
+
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: "Mochiy Pop One", sans-serif;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+/* ------最新消息導覽列------ */
+
+.wrap {
+    margin-top: 150px;
+    display: flex;
+}
+
+.rectangle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: white;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+}
+
+.wrap .rectangle button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 35px;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    transform: skewX(40deg);
+    transition: background-color 0.3s ease;
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+}
+
+
+.wrap .rectangle button span {
+    display: block;
+    transform: skewX(-40deg);
+}
+
+
+.wrap .rectangle button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.info-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: 1200px;
+    width: 100%;
+}
+
+.info-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../material/background_material/black_background_boutton.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* tag 樣式 */
+.tag {
+    padding: 2px 6px;
+    font-size: 12px;
+    color: white;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 10px 0 10px 0;
+}
+
+.tag.news {
+    background-color: #ff9800;
+    /* 橙色表示新聞 */
+}
+
+.tag.announcement {
+    background-color: #2196f3;
+    /* 藍色表示公告 */
+}
+
+.tag.live {
+    background-color: #4caf50;
+    /* 綠色表示活動 */
+}
+
+/* 分頁按鈕樣式 */
+.pagination {
+    position: relative;
+    top: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    z-index: 10;
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+    margin-right: 100px;
+}
+
+.pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button:hover {
+    background-color: #ddddddd2;
+}
+
+
+/* 九宮格圖片樣式 */
+
+.container_nine {
+    margin-top: 150px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(3, 150px);
+    margin-top: 50px;
+    gap: 120px;
+    justify-items: center;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+
+.grid-item-img {
+    width: 280px;
+    height: auto;
+    text-align: center;
+}
+
+.grid-item-img img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* ---回上層按鈕test---- */
+
+.back-to-top {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 5;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+}
+
+.back-to-top:hover {
+    background-color: yellow;
+}
+
+/* --------最新活動資訊文字描述-------- */
+
+.new_info_txt,
+.new_info_de {
+    padding-top: 5px;
+    color: white;
+    font-size: 14px;
+    margin: 5px 0;
+    font-family: "Mochiy Pop One", sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* --- 滑過變色 --- */
+.new_info_txt:hover,
+.new_info_de:hover {
+    color: yellow;
+}
+
+
+/* ------角色介紹測試------- */
+
+/* -----種族分類---- */
+
+.ethnic_background {
+    position: relative;
+    width: auto;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.ethnic_background img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.arrow-btn {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 5px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 2;
+    border-radius: 5px 5px;
+}
+
+.arrow-btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.left-arrow {
+    margin-right: 10px;
+}
+
+.right-arrow {
+    margin-left: 10px;
+}
+
+.ethnic_icon {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+/* --------角色資訊----------- */
+
+.character_backgroud {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+    background-image: url(../material/background_material/black_background_boutton.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    position: relative;
+}
+
+/* 角色照片至右側 */
+.character_photo {
+    flex-shrink: 0;
+    margin-right: 0;
+}
+
+.character_photo img {
+    height: 800px;
+    object-fit: contain;
+}
+
+/* 角色名稱和信息容器至左側 */
+.character_info-container {
+    max-width: 50%;
+    min-width: 300px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.character_name {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+}
+
+.character_info {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Mochiy Pop One", sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+/* ---------角色切換--------- */
+
+/* 角色圖標背景 */
+.character_icon_backgroud {
+    background-image: url(../material/other/23455.png);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: 2200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.icon-container {
+    position: absolute;
+    top: 1040px;
+    left: 60px;
+    z-index: 10;
+}
+
+/* 角色圖標容器 */
+.character_icon {
+    height: 140px;
+    display: flex;
+    padding-bottom: 10px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    padding-right: 50px;
+}
+
+/* 角色圖標圖片 */
+.character_icon img {
+    height: 100%;
+    max-width: 33%;
+    object-fit: contain;
+    border: 4px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    /* 圓角邊框 */
+    filter: grayscale(100%);
+    transition: transform 0.3s ease, filter 0.3s ease, border-color 0.3s ease;
+}
+
+/* 鼠標懸停時效果 */
+.character_icon img:hover {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+    border-color: yellow;
+}
