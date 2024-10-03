@@ -178,7 +178,7 @@ body {
 }
 
 .banner {
-    background-image: url(../material/background_material/background_home_01.jpg);
+    background-image: url(./material/background_material/background_home_01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
