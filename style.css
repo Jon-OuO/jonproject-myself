@@ -472,6 +472,24 @@ body {
     color: var(--textHover-color);
 }
 
+#back-to-top {
+    position: relative;
+    bottom: 480px; /* 距離頁尾頂部10px */
+    left: 480px; /* 距離頁尾右側10px */
+    cursor: pointer; /* 滑鼠移上去變成手形 */
+    z-index: 15; /* 確保按鈕在其他元素之上 */
+}
+
+#back-to-top img {
+    width: 50px; /* 設置返回頂部按鈕的大小 */
+    transition: transform 0.3s; /* 添加平滑過渡效果 */
+}
+
+#back-to-top:hover img {
+    transform: scale(1.2); /* 當鼠標懸停時，按鈕放大 */
+    filter: invert(1); /* 顏色反轉 */
+}
+
 /* -------遊戲介紹設定-------- */
 
 .game_photo_bk {

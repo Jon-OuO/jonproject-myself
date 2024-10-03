@@ -104,6 +104,18 @@ document.querySelectorAll('.custom-carousel').forEach(carousel => {
     }
 });
 
+// 等待頁面加載完成後執行
+window.onload = function() {
+    var backToTopButton = document.getElementById("back-to-top");
+
+    // 點擊按鈕時滾動到頂部
+    backToTopButton.onclick = function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // 平滑滾動
+        });
+    };
+};
 
 
 // ------遊戲特點---內容圖文修改中----
