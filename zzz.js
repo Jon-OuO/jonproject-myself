@@ -454,7 +454,7 @@ const ethnicImages = [
                 info: "隊長，逮捕犯人就交給我吧！",
                 quote: `「還需要一些時間，我相信賽斯有一天可以獨當一面。」<br>——朱鳶<br>「路漫漫其修遠兮。」<br>——一名「捕快」<br>「在咬牙不哭這件事上，小傢伙也是一樣努力啊~」<br> ——一位「罪犯」(？)<br>「啊……你不知道嗎？他可是出了名的關係戶……」<br> ——一個模糊而又刺眼的身影`,
                 photo: "./material/character/Character_Seth.png",
-                icon: "./material/character_icon/character_Seth.png",
+                icon: "./material/character_icon/Character_Seth.png",
 
             },
         ]
