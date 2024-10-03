@@ -209,7 +209,7 @@ body {
 
 #carouselContainer {
     background-color: black;
-    background-image: url(../material/background_material/blackline_01.png);
+    background-image: url(./material/background_material/blackline_01.png);
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -242,7 +242,7 @@ body {
 }
 
 .home_divider {
-    background-image: url(../material/other/divider_01.png);
+    background-image: url(./material/other/divider_01.png);
     height: 50px;
     width: 100%;
     display: flex;
@@ -476,7 +476,7 @@ body {
 
 .game_photo_bk {
     position: relative;
-    background-image: url(../material/background_material/blackline_00.png);
+    background-image: url(./material/background_material/blackline_00.png);
     background-size: contain;
     /* 背景保持原始大小，不缩放 */
     background-position: center center;
@@ -512,7 +512,7 @@ body {
 
 .game_photo_tvbk {
     position: relative;
-    background-image: url(../material/background_material/concept_tv_1.png);
+    background-image: url(./material/background_material/concept_tv_1.png);
     width: 100%;
     max-width: 1200px;
     height: auto;
@@ -682,7 +682,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../material/background_material/black_background_boutton.png);
+    background-image: url(./material/background_material/black_background_boutton.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -888,7 +888,7 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 800px;
-    background-image: url(../material/background_material/black_background_boutton.png);
+    background-image: url(./material/background_material/black_background_boutton.png);
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -943,7 +943,7 @@ a {
 
 /* 角色圖標背景 */
 .character_icon_backgroud {
-    background-image: url(../material/other/23455.png);
+    background-image: url(./material/other/23455.png);
     height: 200px;
     width: 100%;
     display: flex;
