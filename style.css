@@ -765,6 +765,17 @@ a {
     background-color: #ddddddd2;
 }
 
+.pagination button.active {
+    background-color: #fbff00;
+    color: #000000;
+}
+
+.ellipsis {
+    margin: 0 5px;
+    padding: 8px 12px;
+    color: #999;
+}
+
 
 /* 九宮格圖片樣式 */
 

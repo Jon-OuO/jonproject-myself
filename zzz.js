@@ -23,16 +23,16 @@ const carousel1Descriptions = [
 
 // carousel2 对应的描述
 const carousel2Descriptions = [
-    "新劇情：「臥底藍調」獨家視界開啟<br><br>真話還是謊言？<br>遊走在凶惡幫派裡的希人女郎，她的笑容意味深長……<br><br>繩匠完成相應的前置劇情後，即可解鎖簡的獨家視界「臥底藍調」。<br>【開放時間】<br><br>1.1版本更新後永久開放。<br>【開放條件】<br><br>完成主線第三章「危樓夜尋蹤」。<br>※ 繩匠可前往【影像檔案架】-【獨家視界】查看相應內容及其解鎖條件。", // 对应第1张图片
+    "新劇情：「臥底藍調」獨家視界開启<br><br>真話還是謊言？<br>遊走在凶惡幫派裡的希人女郎，她的笑容意味深長……<br><br>繩匠完成相應的前置劇情後，即可解鎖簡的獨家視界「臥底藍調」。<br>【開放時間】<br><br>1.1版本更新後永久開放。<br>【開放條件】<br><br>完成主線第三章「危樓夜尋蹤」。<br>※ 繩匠可前往【影像檔案架】-【獨家視界】查看相應內容及其解鎖條件。", // 对应第1张图片
     "《絕區零》簡角色展示｜致命審訊<br><br>「老大派我來…好好犒勞你。」</br>「噢？你有話想說？想好再說喔…」", // 对应第2张图片
     "1.1版本「臥底藍調」更新說明<br><br>親愛的繩匠：<br>以下是1.1版本——「臥底藍調」的更新與補償內容。<br><br>【更新開始時間】<br>2024/08/14 06:00:00（UTC+8）<br><br>預計5個小時完成。<br>【補償說明<br><br>● 停服更新補償<br>補償內容：菲林×300<br><br>補償對象：2024/08/14 06:00:00（UTC+8）前繩網等級≥4級的繩匠。<br>領取時間於1.1版本結束前截止。<br><br>● 問題修復補償<br>補償內容：菲林×300<br><br>補償對象：2024/08/14 06:00:00（UTC+8）前繩網等級≥4級的繩匠。<br>補償條目請參考對應補償郵件，請繩匠於2024/09/13 23:59:00（UTC+8）前上線收取。<br><br>開發團隊將在維護完成後，以遊戲內郵件的形式發放以上補償。郵件有效期限為30天，請注意及時領取。", // 对应第3张图片
-    "《絕區零》攻略徵集活動<br><br>繩匠，歡迎來到《絕區零》攻略站！1.0版本攻略徵集活動現已開啟~<br>參與攻略投稿即有機會獲得菲林×5000、周邊大禮包等獎勵，投稿總量達1000即可解鎖里程碑獎勵——菲林×30！<br><br>【活動時間】<br>攻略投稿：2024年7月4日 10:00 - 2024年8月12日 23:59 (UTC+8)<br><br>作品評選：2024年8月13日 - 2024年8月25日 23:59(UTC+8)<br>開獎時間：2024年8月26日 18:00<br><br>【活動獎勵】<br>傑出繩匠（5名）<br><br>菲林×5000 + 隨機壓克力角色立牌×10 + 方形抱枕邦布款×1 + 冰箱貼都市款×1 + 攻略徵集頭像框（90天）×1<br>資深繩匠（10名）<br><br>2000菲林 + 隨機壓克力角色立牌×4 + 方形抱枕邦布款×1 + 冰箱貼都市款×1 + 攻略徵集頭像框（90天）×1<br>新星繩匠（50名）<br><br>1000菲林 + 隨機壓克力角色立牌×1 + 冰箱貼都市款×1 + 攻略徵集頭像框（90天）×1<br>※活動期間有效投稿總量達1000篇，即可解鎖里程碑獎勵（菲林×30），所有繩匠均可領取。", // 对应第4张图片
-    "TikTok「低成本Cosplay」短影片徵集活動開啟<br><br>親愛的繩匠：<br>《絕區零》TikTok「低成本Cosplay」短影片徵集活動現已開啟！<br><br>參與投稿最高可贏5000菲林獎勵~<br>快發揮你的創造力，用手邊的材料還原出《絕區零》的特色，參與活動贏獎勵吧！<br><br>▼活動時間▼<br>投稿時間：2024年7月5日12:00 - 2024年7月26日23:59（UTC+8）<br><br>獲獎公布：2024年8月26日後<br>▼活動獎勵▼<br><br>一等獎（5名）：菲林 ×5000<br>二等獎（10名）：菲林 ×2000<br><br>三等獎（30名）：菲林 ×1000<br>※作品評選時將播放量、按讚、評論等資料納入部分考量喔~" , // 对应第5张图片
-    "「喧譁奏鳴」調頻說明<br><br>親愛的繩匠，「喧譁奏鳴」音擎頻道即將開啟，[防暴者Ⅵ型(強攻)]的調頻獲得機率提升！<br>【活動時間】<br><br>2024/7/24 12:00:00 - 2024/8/13 14:59:59（伺服器時間）<br>【調頻說明】<br><br>活動期間，限定S級音擎[防暴者Ⅵ型(強攻)]以及A級音擎[聚寶箱(支援)]、[比格氣缸(防護)]的調頻獲得機率將大幅提升！<br>※ 以上訊號中，限定S級音擎不會進入「熱門卡司」常駐頻道。<br><br>※ 本頻道屬於「音擎頻道」，在本頻道中的調頻保底次數會一直累計在「音擎頻道」中。「音擎頻道」與其他頻道的調頻保底次數相互獨立計算，互不影響。<br>※ 更多調頻資訊可點擊調頻介面左下角「詳情」按鈕查看。" , // 对应第5张图片
-    "「金牌售後」活動說明<br><br>【活動時間】<br>2024/08/16 10:00:00（伺服器時間） - 2024/08/26 03:59:59（伺服器時間）<br><br>【參與條件】<br>繩網等級≥15級且完成代理人秘聞「洞中諜 上」後即可參與。<br><br>【活動說明】<br>• 活動期間，可以在六分街的錄影帶店前，幫助客人修理除錯損壞的播放器。<br>• 完成對目前播放器的「簡單除錯」後，可以解鎖對應的「精細校準」關卡。<br><br>• 完成對目前播放器的「簡單除錯」且達到指定時間後，可以解鎖下一台播放器的對應關卡。<br>• 完成活動系列關卡，即可獲得[菲林]、[邦布券]等獎勵。 " , // 对应第5张图片
-    "《絕區零》簡角色PV｜逮捕<br><br>「有壞東西跑掉了，我去清理一下。」<br>「對了，我的印記，你也記得清理喔~」" , // 对应第5张图片
-    "邦布們的說明書｜阿崔巡查<br><br>「治安布追捕壞人的樣子實在太有安全感了，真想抱回家……」<br>「這算不算是一種自投羅網？」<br><br>幫助市民決不放棄的小小邦布，也是追寇緝賊決不鬆口的威武判官。<br>治安布們身經百戰的老前輩，刑偵特勤組從不遲到的好幫手。" , // 对应第5张图片
-    "「卓越搭檔」上新說明<br><br>「卓越搭檔」上新！1.1版本更新後，S級邦布[阿崔巡查]將永久加入邦布頻道。<br>【調頻說明】<br><br>• 在邦布頻道進行調頻前，繩匠須在本頻道中指定1個S級邦布，當調頻獲得S級邦布時，必定為所指定的S級邦布。<br>• 繩匠指定S級邦布後，可隨時更換目標，已調頻次數不會重置，保底將會繼承。<br><br>• 可指定S級邦布一覽：[阿崔巡查]、[巴特勒]、[阿全]、[艾米莉安]、[飆速布]、[插頭布]、[共鳴布]、[鯊牙布]、[左輪布]。<br>※ 本頻道屬於「邦布頻道」，在本頻道中的調頻保底次數會一直累計在「邦布頻道」中。「邦布頻道」與其他頻道的調頻保底次數相互獨立計算，互不影響。<br><br>※ 更多調頻資訊可點擊調頻介面左下角「詳情」按鈕進行查看。 " , // 对应第5张图片
+    "《絕區零》攻略徵集活動<br><br>繩匠，歡迎來到《絕區零》攻略站！1.0版本攻略徵集活動現已開启~<br>參與攻略投稿即有機會獲得菲林×5000、周邊大禮包等獎勵，投稿總量達1000即可解鎖里程碑獎勵——菲林×30！<br><br>【活動時間】<br>攻略投稿：2024年7月4日 10:00 - 2024年8月12日 23:59 (UTC+8)<br><br>作品評選：2024年8月13日 - 2024年8月25日 23:59(UTC+8)<br>開獎時間：2024年8月26日 18:00<br><br>【活動獎勵】<br>傑出繩匠（5名）<br><br>菲林×5000 + 隨機壓克力角色立牌×10 + 方形抱枕邦布款×1 + 冰箱貼都市款×1 + 攻略徵集頭像框（90天）×1<br>資深繩匠（10名）<br><br>2000菲林 + 隨機壓克力角色立牌×4 + 方形抱枕邦布款×1 + 冰箱貼都市款×1 + 攻略徵集頭像框（90天）×1<br>新星繩匠（50名）<br><br>1000菲林 + 隨機壓克力角色立牌×1 + 冰箱貼都市款×1 + 攻略徵集頭像框（90天）×1<br>※活動期間有效投稿總量達1000篇，即可解鎖里程碑獎勵（菲林×30），所有繩匠均可領取。", // 对应第4张图片
+    "TikTok「低成本Cosplay」短影片徵集活動開启<br><br>親愛的繩匠：<br>《絕區零》TikTok「低成本Cosplay」短影片徵集活動現已開启！<br><br>參與投稿最高可贏5000菲林獎勵~<br>快發揮你的創造力，用手邊的材料還原出《絕區零》的特色，參與活動贏獎勵吧！<br><br>▼活動時間▼<br>投稿時間：2024年7月5日12:00 - 2024年7月26日23:59（UTC+8）<br><br>獲獎公布：2024年8月26日後<br>▼活動獎勵▼<br><br>一等獎（5名）：菲林 ×5000<br>二等獎（10名）：菲林 ×2000<br><br>三等獎（30名）：菲林 ×1000<br>※作品評選時將播放量、按讚、評論等資料納入部分考量喔~", // 对应第5张图片
+    "「喧譁奏鳴」調頻說明<br><br>親愛的繩匠，「喧譁奏鳴」音擎頻道即將開启，[防暴者Ⅵ型(強攻)]的調頻獲得機率提升！<br>【活動時間】<br><br>2024/7/24 12:00:00 - 2024/8/13 14:59:59（伺服器時間）<br>【調頻說明】<br><br>活動期間，限定S級音擎[防暴者Ⅵ型(強攻)]以及A級音擎[聚寶箱(支援)]、[比格氣缸(防護)]的調頻獲得機率將大幅提升！<br>※ 以上訊號中，限定S級音擎不會進入「熱門卡司」常駐頻道。<br><br>※ 本頻道屬於「音擎頻道」，在本頻道中的調頻保底次數會一直累計在「音擎頻道」中。「音擎頻道」與其他頻道的調頻保底次數相互獨立計算，互不影響。<br>※ 更多調頻資訊可點擊調頻介面左下角「詳情」按鈕查看。", // 对应第5张图片
+    "「金牌售後」活動說明<br><br>【活動時間】<br>2024/08/16 10:00:00（伺服器時間） - 2024/08/26 03:59:59（伺服器時間）<br><br>【參與條件】<br>繩網等級≥15級且完成代理人秘聞「洞中諜 上」後即可參與。<br><br>【活動說明】<br>• 活動期間，可以在六分街的錄影帶店前，幫助客人修理除錯損壞的播放器。<br>• 完成對目前播放器的「簡單除錯」後，可以解鎖對應的「精細校準」關卡。<br><br>• 完成對目前播放器的「簡單除錯」且達到指定時間後，可以解鎖下一台播放器的對應關卡。<br>• 完成活動系列關卡，即可獲得[菲林]、[邦布券]等獎勵。 ", // 对应第5张图片
+    "《絕區零》簡角色PV｜逮捕<br><br>「有壞東西跑掉了，我去清理一下。」<br>「對了，我的印記，你也記得清理喔~」", // 对应第5张图片
+    "邦布們的說明書｜阿崔巡查<br><br>「治安布追捕壞人的樣子實在太有安全感了，真想抱回家……」<br>「這算不算是一種自投羅網？」<br><br>幫助市民決不放棄的小小邦布，也是追寇緝賊決不鬆口的威武判官。<br>治安布們身經百戰的老前輩，刑偵特勤組從不遲到的好幫手。", // 对应第5张图片
+    "「卓越搭檔」上新說明<br><br>「卓越搭檔」上新！1.1版本更新後，S級邦布[阿崔巡查]將永久加入邦布頻道。<br>【調頻說明】<br><br>• 在邦布頻道進行調頻前，繩匠須在本頻道中指定1個S級邦布，當調頻獲得S級邦布時，必定為所指定的S級邦布。<br>• 繩匠指定S級邦布後，可隨時更換目標，已調頻次數不會重置，保底將會繼承。<br><br>• 可指定S級邦布一覽：[阿崔巡查]、[巴特勒]、[阿全]、[艾米莉安]、[飆速布]、[插頭布]、[共鳴布]、[鯊牙布]、[左輪布]。<br>※ 本頻道屬於「邦布頻道」，在本頻道中的調頻保底次數會一直累計在「邦布頻道」中。「邦布頻道」與其他頻道的調頻保底次數相互獨立計算，互不影響。<br><br>※ 更多調頻資訊可點擊調頻介面左下角「詳情」按鈕進行查看。 ", // 对应第5张图片
 ];
 
 // 顯示指定索引的圖片並更新描述
@@ -40,7 +40,7 @@ function showSlide(carouselId, index) {
     const carousel = document.getElementById(carouselId);
     const slides = carousel.querySelectorAll('.custom-carousel-item');
     const descElement = document.getElementById(carouselId + '-desc');
-    
+
     // 确保索引有效
     if (index >= slides.length) {
         carouselIndex[carouselId] = 0;
@@ -105,11 +105,11 @@ document.querySelectorAll('.custom-carousel').forEach(carousel => {
 });
 
 // 等待頁面加載完成後執行
-window.onload = function() {
+window.onload = function () {
     var backToTopButton = document.getElementById("back-to-top");
 
     // 點擊按鈕時滾動到頂部
-    backToTopButton.onclick = function() {
+    backToTopButton.onclick = function () {
         window.scrollTo({
             top: 0,
             behavior: 'smooth' // 平滑滾動
@@ -131,61 +131,61 @@ const slides = [
         text: "在這災禍頻仍的世界裡，崛起了一座另類的城市——「新艾利都」。這座最後的「綠洲」掌握了與「空洞」共生的技術，盤踞著錯綜複雜的勢力，它混亂、喧囂、危險又充滿活力。而你將成為串聯起空洞與都市的關鍵少數派，名為「繩匠」的特殊職業人士。這裡正等待著見證你的故事。"
     },
     {
-        image: "./material/game_photo_original/game_photo_tvbk_01.jpg",
+        image: "./material/game_photo_original/game_photo_tvbk_04.png",
         title: "背景介紹",
         description: "不要進入空洞。",
         text: "我知道我知道，空洞裡有以太資源、有異化造物、甚至有舊文明的遺產，全都是珍貴的財富。但是別忘了，那裡面空間紊亂，怪物肆虐，異變橫生，終究是一場吞沒世界的災難，不是一般人該去的地方。所以不要進入空洞。至少，不要「獨自」進入空洞。如果你執意要進入險境，那先去新艾利都吧。那座魚龍混雜的都市裡有許多對空洞有需求的人：權勢遮天的財閥、蟄伏街頭的幫派、暗藏陰謀的狂人或者鐵面無情的官吏。在那裡做好完全的準備，結交有實力的同伴，以及最重要的——找到一位「繩匠」。只有他們有能力把人從迷宮般的空洞裡引導出來。祝你好運。"
     },
     {
-        image: "./material/game_photo_original/game_photo_tvbk_02.jpg",
+        image: "./material/game_photo_original/game_photo_tvbk_01.jpg",
         title: "劇情設定",
         description: "法厄同紀事",
         text: "法厄同紀事是遊戲的主線任務，內容主要為主角在新艾利都生活與冒險的故事，劇情包括法厄同紀事、代理人秘聞等。"
     },
     {
-        image: "./material/game_photo_original/game_photo_tvbk_03.jpg",
+        image: "./material/game_photo_original/game_photo_tvbk_10.jpg",
         title: "Random Play",
         description: "想在新艾利都看一部好電影？",
         text: "記得先去錄像店「Random Play」逛逛。店主是一對性格迥異的兄妹，一定能給你滿意的答案。不過他們本人的經歷，可能比最刺激的動作電影還精彩幾分……"
     },
     {
-        image: "./material/game_photo_original/game_photo_tvbk_04.png",
+        image: "./material/game_photo_original/game_photo_tvbk_05.png",
         title: "特色玩法介紹",
         description: "主打連攜技 Combo 玩法",
         text: "一定要先建立動作表現與打擊回饋，比起誇張特效與隨意的螢幕震動，他們更傾向於以「Frame」為單位，去校準和打磨所有的動作和特效，相信只有讓畫面乾淨，才能充滿向玩家展現動作之美。換句話說，要營造出優秀的打擊感，是不能錯過一點細節的。"
     },
     {
-        image: "./material/game_photo_original/game_photo_tvbk_05.png",
+        image: "./material/game_photo_original/game_photo_tvbk_08.png",
         title: "戰鬥系統",
         description: "主打連攜系統",
         text: "繩匠操作代理人攻擊敵人會使其累積失衡槽，當失衡槽積滿時且施放相應的攻擊後，敵人會進入失衡的狀態，此時繩匠可以選擇代理人施放對應的連攜技。當然除了在進攻上為玩家提供爽快感，防守部分也提供了更多的選擇。"
     },
     {
-        image: "./material/game_photo_original/game_photo_tvbk_06.jpg",
+        image: "./material/game_photo_original/game_photo_tvbk_03.jpg",
         title: "爬格子式地城探索",
         description: "「空洞」是《絕區零》的核心設定，而遊戲玩法自然和空洞有關。",
         text: "空洞也直接等同遊戲中的關卡，玩家需要帶領能在空洞裡作戰的代理人在空洞中探索；關卡採用「爬格子」地城探索形式，玩家需要在格子地圖上探索或解開謎題材能到達目的地，而當進入戰鬥時就會變成類似《崩壞3rd》的動作玩法。"
     },
     {
-        image: "./material/game_photo_original/game_photo_tvbk_07.jpg",
+        image: "./material/game_photo_original/game_photo_tvbk_09.png",
         title: "爽快動作華麗連段特效",
         description: "會有cut-in演出",
         text: "攻擊分普通攻擊和特殊技兩種，攻擊命中敵人會為自己累積「能量」和「喧響等級」，能量儲滿之後可以發動更強力的強化特殊技；喧響等級儲滿後就可以發動必殺技。"
     },
     {
-        image: "./material/game_photo_original/game_photo_tvbk_08.png",
+        image: "./material/game_photo_original/game_photo_tvbk_02.jpg",
         title: "街區探索與尋寶",
         description: "日本街景的巷弄",
         text: "主角一開始所居住的地區為「新艾利都」城市的六分街，玩家在探索空洞之餘，也會需要來到六分街上與其他 NPC 互動，或是購買商品。"
     },
     {
-        image: "./material/game_photo_original/game_photo_tvbk_09.png",
+        image: "./material/game_photo_original/game_photo_tvbk_07.jpg",
         title: "代理人培育與養成",
         description: "在《絕區零》遊戲中，負責戰鬥的並不是主角，而是「代理人」。",
         text: "每一位「代理人」的強化可從三個地方著手，分別是「等級」、「技能」與「音擎」。每一種升級都需要對應的素材，這些素材都仰賴主線或探索素材關卡來獲取，要育成一位代理人資源大致上需要花費不少時間，很難初期就全面培養的面面俱到。"
     },
     {
-        image: "./material/game_photo_original/game_photo_tvbk_10.jpg",
+        image: "./material/game_photo_original/game_photo_tvbk_06.jpg",
         title: "抽卡機制特色",
         description: "以錄像店結合賽博龐克的混合",
         text: "以電視機與錄像帶為主，與之抽卡介面一併以TV風格呈現"
@@ -278,6 +278,16 @@ document.addEventListener('DOMContentLoaded', function () {
             { imgSrc: "./material/new_info_live/new/new_06.jpg", date: "2024/09/04", description: "「天衣無縫的偽裝」", type: "news", },
             { imgSrc: "./material/new_info_live/new/new_07.png", date: "2024/09/03", description: "《絕區零》簡角色展示｜致命審訊", type: "news", },
             { imgSrc: "./material/new_info_live/new/new_08.png", date: "2024/09/02", description: "「代理人機制介紹：賽斯篇", type: "news", },
+            { imgSrc: "./material/new_info_live/new/new_09.png", date: "2024/09/02", description: "繩網精選-1.1版本音擎上新｜第二彈", type: "news", },
+            { imgSrc: "./material/new_info_live/new/new_10.jpg", date: "2024/09/01", description: "《絕區零》2024年9月月曆桌布", type: "news", },
+            { imgSrc: "./material/new_info_live/new/new_11.jpg", date: "2024/09/01", description: "生日快樂朱鳶｜好的計劃允許驚喜發生", type: "news", },
+            { imgSrc: "./material/new_info_live/new/new_12.png", date: "2024/09/01", description: "《Behind the Agent》採訪手記：簡篇", type: "news", },
+            { imgSrc: "./material/new_info_live/new/new_13.jpg", date: "2024/09/01", description: "《絕區零》HoYoLAB 9月簽到開启！", type: "news", },
+            { imgSrc: "./material/new_info_live/new/new_14.png", date: "2024/08/31", description: "代理人機制介紹：簡篇", type: "news", },
+            { imgSrc: "./material/new_info_live/new/new_15.png", date: "2024/08/30", description: "《絕區零》簡角色PV｜逮捕", type: "news", },
+            { imgSrc: "./material/new_info_live/new/new_16.png", date: "2024/08/29", description: "茶飲美味的秘訣", type: "news", },
+            { imgSrc: "./material/new_info_live/new/new_17.png", date: "2024/08/27", description: "《絕區零》代理人戰鬥情報：簡", type: "news", },
+            { imgSrc: "./material/new_info_live/new/new_18.png", date: "2024/08/23", description: "邦布們的說明書｜阿崔巡查", type: "news", },
             // ...其他新聞項目
         ],
         announcement: [
@@ -289,7 +299,17 @@ document.addEventListener('DOMContentLoaded', function () {
             { imgSrc: "./material/new_info_live/announcement/info_05.png", date: "2024/09/02", description: "「咖啡魔藥學-實戰模擬室」活動說明", type: "announcement", },
             { imgSrc: "./material/new_info_live/announcement/info_06.png", date: "2024/08/28", description: "「治安官的一天」活動說明", type: "announcement", },
             { imgSrc: "./material/new_info_live/announcement/info_07.png", date: "2024/08/14", description: "「金牌售後」活動說明", type: "announcement", },
-            { imgSrc: "./material/new_info_live/announcement/info_08.png", date: "2024/08/14", description: "新劇情：「臥底藍調」獨家視界開啟", type: "announcement", },
+            { imgSrc: "./material/new_info_live/announcement/info_08.png", date: "2024/08/14", description: "新劇情：「臥底藍調」獨家視界開启", type: "announcement", },
+            { imgSrc: "./material/new_info_live/announcement/info_09.png", date: "2024/08/14", description: "新劇情：「失蹤邦口」代理人秘聞開启", type: "announcement", },
+            { imgSrc: "./material/new_info_live/announcement/info_10.png", date: "2024/08/14", description: "1.1版本「臥底藍調」更新說明", type: "announcement", },
+            { imgSrc: "./material/new_info_live/announcement/info_11.png", date: "2024/08/13", description: "「青如玉壺冰」調頻說明", type: "announcement", },
+            { imgSrc: "./material/new_info_live/announcement/info_12.png", date: "2024/08/13", description: "「喧譁奏鳴」調頻說明", type: "announcement", },
+            { imgSrc: "./material/new_info_live/announcement/info_13.png", date: "2024/08/13", description: "「卓越搭檔」上新說明", type: "announcement", },
+            { imgSrc: "./material/new_info_live/announcement/info_14.png", date: "2024/08/13", description: "「全新放送」活動說明", type: "announcement", },
+            { imgSrc: "./material/new_info_live/announcement/info_15.jpg", date: "2024/08/12", description: "1.1版本「臥底藍調」預先下載開启&更新通知", type: "announcement", },
+            { imgSrc: "./material/new_info_live/announcement/info_16.jpg", date: "2024/08/05", description: "「咖啡魔藥學-調律」活動說明", type: "announcement", },
+            { imgSrc: "./material/new_info_live/announcement/info_17.jpg", date: "2024/07/31", description: "「『141』限定販售集市」活動說明", type: "announcement", },
+            { imgSrc: "./material/new_info_live/announcement/info_18.png", date: "2024/07/22", description: "「喧譁奏鳴」調頻說明", type: "announcement", },
             // ...其他公告項目
         ],
         live: [
@@ -298,10 +318,13 @@ document.addEventListener('DOMContentLoaded', function () {
             { imgSrc: "./material/new_info_live/live/live_02.png", date: "2024/08/15", description: "🎁Discord有獎活動｜以骸大作戰", type: "live", },
             { imgSrc: "./material/new_info_live/live/live_03.jpg", date: "2024/08/14", description: "1.1版本TikTok短影片徵集活動", type: "live", },
             { imgSrc: "./material/new_info_live/live/live_04.png", date: "2024/08/14", description: "Twitch 掉寶 獎勵開始掉落！", type: "live", },
-            { imgSrc: "./material/new_info_live/live/live_05.png", date: "2024/08/14", description: "【有獎活動】1.1版本攻略徵集活動現已開啟！", type: "live", },
+            { imgSrc: "./material/new_info_live/live/live_05.png", date: "2024/08/14", description: "【有獎活動】1.1版本攻略徵集活動現已開启！", type: "live", },
             { imgSrc: "./material/new_info_live/live/live_06.png", date: "2024/08/10", description: "青衣同人繪畫徵集活動", type: "live", },
             { imgSrc: "./material/new_info_live/live/live_07.jpg", date: "2024/08/09", description: "Twitch 直播激勵", type: "live", },
             { imgSrc: "./material/new_info_live/live/live_08.png", date: "2024/08/03", description: "Twitch 前瞻特別節目 抽獎福利放送！", type: "live", },
+            { imgSrc: "./material/new_info_live/live/live_09.png", date: "2024/07/15", description: "《絕區零》「DIY邦布」創意繪畫徵集活動正式開启！", type: "live", },
+            { imgSrc: "./material/new_info_live/live/live_10.jpg", date: "2024/07/05", description: "TikTok「低成本Cosplay」短影片徵集活動開启", type: "live", },
+            { imgSrc: "./material/new_info_live/live/live_11.jpg", date: "2024/07/04", description: "《絕區零》攻略徵集活動", type: "live", },
             // ...其他活動項目
         ]
     };
@@ -362,24 +385,89 @@ document.addEventListener('DOMContentLoaded', function () {
         generatePagination(totalPages, type);
     }
 
-    // 生成分頁按鈕
-    function generatePagination(totalPages, type) {
+    let totalPages; // 全域變數，用來保存總頁數
+
+    function generatePagination(totalPagesParam, type) {
         const paginationContainer = document.getElementById('pagination');
         paginationContainer.innerHTML = ''; // 清空分頁按鈕
-
-        for (let i = 1; i <= totalPages; i++) {
-            const pageButton = document.createElement('button');
-            pageButton.innerText = i;
-            pageButton.addEventListener('click', () => {
-                currentPage = i;
-                loadContent(type, currentPage); // 加載對應頁碼的內容
-                scrollToTop(); // 切換頁面後滾動到頂部
-            });
-
-            paginationContainer.appendChild(pageButton);
+    
+        totalPages = totalPagesParam; // 更新全局變量
+        const maxVisibleButtons = 3; // 最多顯示3個頁碼
+        let startPage, endPage;
+    
+        // 計算起始和結束頁碼範圍
+        if (totalPages <= maxVisibleButtons) {
+            // 如果總頁數少於或等於5，則顯示所有頁碼
+            startPage = 1;
+            endPage = totalPages;
+        } else {
+            // 如果總頁數多於5，動態顯示當前頁碼附近的範圍
+            const middle = Math.floor(maxVisibleButtons / 2);
+            startPage = Math.max(1, currentPage - middle); // 確保不小於1
+            endPage = Math.min(totalPages, currentPage + middle); // 確保不超過總頁數
+    
+            // 修正當前範圍過窄的情況
+            if (currentPage <= middle) {
+                startPage = 1;
+                endPage = maxVisibleButtons;
+            } else if (currentPage + middle >= totalPages) {
+                startPage = totalPages - maxVisibleButtons + 1;
+                endPage = totalPages;
+            }
+        }
+    
+        // 顯示首頁和省略號
+        if (startPage > 1) {
+            createPageButton(1, type); // 第一頁
+            if (startPage > 2) createEllipsis(); // 左邊省略號
+        }
+    
+        // 顯示範圍內的頁碼
+        for (let i = startPage; i <= endPage; i++) {
+            createPageButton(i, type);
+        }
+    
+        // 顯示尾頁和省略號
+        if (endPage < totalPages) {
+            if (endPage < totalPages - 1) createEllipsis(); // 右邊省略號
+            createPageButton(totalPages, type); // 最後一頁
         }
     }
+    
+    
+    function createPageButton(pageNumber, type) {
+        const pageButton = document.createElement('button');
+        pageButton.innerText = pageNumber;
+        pageButton.classList.add('page-btn');
+        pageButton.addEventListener('click', () => {
+            currentPage = pageNumber;
+            loadContent(type, currentPage); // 加載對應頁碼的內容
+            scrollToTop();
+        });
+    
+        if (pageNumber === currentPage) {
+            pageButton.classList.add('active'); // 高亮當前頁碼
+        }
+    
+        document.getElementById('pagination').appendChild(pageButton);
+    }
+    
+    function createEllipsis() {
+        const ellipsis = document.createElement('span');
+        ellipsis.innerText = '...';
+        ellipsis.classList.add('ellipsis'); // 你可以加上樣式來控制顯示
+        document.getElementById('pagination').appendChild(ellipsis);
+    }
 
+    
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    
     // 綁定按鈕點擊事件
     document.getElementById('latest-btn').addEventListener('click', () => {
         currentPage = 1; // 重置頁碼
@@ -513,7 +601,7 @@ const ethnicImages = [
             {
 
                 name: "艾蓮·喬",
-                info: "啊，又是麻煩的委託……果然該換個班表。",
+                info: "啊，又是麻煩的委托……果然該换個班表。",
                 quote: `三言兩語，簡單一點<br>麻煩的事情在這裡是行不通的，一切從簡。<br><br>勞逸結合，輕鬆一點<br>適時休息，當然是為了工作……的時候不要那麼心煩。<br><br>全神貫注，小心一點<br>
                     怕她不認真，也怕她過於認真，好在受苦的是敵人。<br><br>剝開糖紙，甜蜜一點<br>把棒棒糖叼在嘴哩，把少女的心思藏在懷裡。`,
                 photo: "./material/character/character_Ellen.png",
@@ -523,7 +611,7 @@ const ethnicImages = [
             {
 
                 name: "亞歷山德麗娜",
-                info: "您就是這次的主人嗎？維多利亞居家服務麗娜，為您效勞。",
+                info: "您就是這次的主人嗎？維多利亞居家服務麗娜，为您效勞。",
                 quote: `「仲夏夜之夢舞曲」<br>精緻柔和的曼妙旋律，在麗娜身上自然而然地流淌。<br><br>「命運交織協奏曲」<br>玩偶們演繹的附加樂章，最好豎起所有耳朵聽。<br><br>「新新世界交響曲」<br>激昂有力卻不失優雅，揍人也是一如既往地美麗。<br><br>「沉默悲愴奏鳴曲」<br>看到麗娜走進廚房時，很多人腦中會響起的配樂。`,
                 photo: "./material/character/character_Alexandrina.png",
                 icon: "./material/character_icon/character_Alexandrina.png",
@@ -533,7 +621,7 @@ const ethnicImages = [
 
                 name: "馮·萊卡恩",
                 info: "執事萊卡恩，感謝您的指名。",
-                quote: `不管什麼事都能妥善解決，是顧客最信賴的執事，是團隊最堅實的後盾。<br>理性又明智，優雅如紳士，容不得一點污漬。<br><br>認定自己跟隨的人之後，會向其獻上絕對的忠誠。<br>雖然表面上優雅理性，但面對某些危險時會流露出與生俱來的野性。`,
+                quote: `不管什麼事都能妥善解決，是顧客最信賴的執事，是團隊最堅實的後盾。<br>理性又明智，優雅如紳士，容不得一點汙漬。<br><br>認定自己跟隨的人之後，會向其獻上絕對的忠誠。<br>雖然表面上優雅理性，但面對某些危險時會流露出與生俱來的野性。`,
                 photo: "./material/character/character_Lycaon.png",
                 icon: "./material/character_icon/character_Lycaon.png",
 
@@ -587,7 +675,7 @@ const ethnicImages = [
 
                 name: "露西",
                 info: "有貴客登門，就讓本小姐來招待吧！",
-                quote: `「年輕人的精神真好啊~」<br>——派派·韋爾<br><br>「很有品味！但是她看得上的特調，沒一點錢還真做不出來哈哈哈。」<br>——一位熱情的調飲師<br><br>「有遠見的父母，懂得使用以下幾種方法給孩子成長的自由。」<br>——《別讓親子關係成為伴生空洞》節選<br><br>「如有知其下落者請聯絡我們，必有重！重！重賞！」<br>——黃金時段的尋人啟事廣告`,
+                quote: `「年輕人的精神真好啊~」<br>——派派·韋爾<br><br>「很有品味！但是她看得上的特調，沒一點錢還真做不出來哈哈哈。」<br>——一位熱情的調飲師<br><br>「有遠見的父母，懂得使用以下幾種方法給孩子成長的自由。」<br>——《別讓親子關係成為伴生空洞》節選<br><br>「如有知其下落者請聯絡我們，必有重！重！重賞！」<br>——黃金時段的尋人启事廣告`,
                 photo: "./material/character/character_Luciana.png",
                 icon: "./material/character_icon/character_Luciana.png",
 
