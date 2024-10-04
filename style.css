@@ -181,8 +181,9 @@ body {
     background-image: url(./material/background_material/background_home_01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
-    height: 800px;
+    height: 50vh;
     margin-top: 20px;
     margin-bottom: 50px;
     background-color: #000;
@@ -228,6 +229,7 @@ body {
     font-family: "ZCOOL QingKe HuangYou", sans-serif;
     color: black;
 }
+
 
 .character_Ethnic {
     font-family: "Mochiy Pop One", sans-serif;
@@ -1022,3 +1024,71 @@ a {
     filter: grayscale(0%);
     border-color: yellow;
 }
+
+/* 響應式 首頁 */
+
+/* 当屏幕宽度小于768px时，调整轮播图的大小 */
+@media (max-width: 768px) {
+    .carousel-large, .carousel-small {
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel-caption {
+        font-size: 14px;
+    }
+
+    /* 调整描述框的布局 */
+    .carousel-large-description, .carousel-small-description {
+        position: relative;
+        max-width: 100%;
+        margin: 0;
+        padding: 10px;
+        top: auto;
+        transform: none;
+    }
+}
+
+/* 针对中等屏幕 (992px) 的调整 */
+@media (min-width: 768px) and (max-width: 992px) {
+    .carousel-large, .carousel-small {
+        width: 90%;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .btnGame, .btn_game_photo {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 30vh; /* 更小的设备高度减少 */
+    }
+}
+
+@media (max-width: 576px) {
+    .banner {
+        height: 25vh; /* 更小的设备 */
+    }
+}
+
+#logoImage {
+    max-width: 100%; /* 确保图片不会超过其容器宽度 */
+    height: auto; /* 自动调整高度，保持图片比例 */
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.7)); /* 增加阴影效果 */
+}
+
